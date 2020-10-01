@@ -1,0 +1,23 @@
+package org.btm.oneApp;
+import org.hibernate.*;
+import org.hibernate.cfg.*;
+public class TestDao {
+	public static void main(String[] args) 
+	{
+		Configuration cfg=new Configuration( );
+		cfg.configure( );
+		SessionFactory sef=cfg.buildSessionFactory( );
+		Session ses=sef.openSession( );
+		Transaction tran=ses.beginTransaction( );
+		AadharCard aac=new AadharCard();
+		aac.setName("vijay.k");
+		Student s=new Student();
+		s.setName("viji");
+		s.setAadar(aac);
+		ses.save(s);
+		tran.commit( );
+		ses.close( );
+
+	}
+
+}

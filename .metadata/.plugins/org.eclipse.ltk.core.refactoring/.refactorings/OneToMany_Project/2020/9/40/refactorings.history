@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ManyToOne_Project/src/org/jspider/manyApp&apos; to &apos;manytooneApp&apos;" description="Rename resource &apos;manyApp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/org/jspider/manyApp" name="manytooneApp" stamp="1601448928496" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;OneToMany_Project/src/org/jspider/manytooneApp&apos; to &apos;OneToMany&apos;" description="Rename resource &apos;manytooneApp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/org/jspider/manytooneApp" name="OneToMany" stamp="1601449035449" updateReferences="true"/>
+</session>

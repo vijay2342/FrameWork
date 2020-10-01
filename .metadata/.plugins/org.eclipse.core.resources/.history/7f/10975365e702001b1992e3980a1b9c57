@@ -1,0 +1,18 @@
+package org.jspider.manyApp;
+import org.hibernate.*;
+import org.hibernate.cfg.*;
+
+public class TestDao {
+	public static void main(String[] args) 
+	{
+		Configuration cfg=new Configuration( );
+		cfg.configure( );
+		SessionFactory sef=cfg.buildSessionFactory( );
+		Session ses=sef.openSession( );
+		Transaction tran=ses.beginTransaction( );
+		
+		tran.commit( );
+		ses.close( );
+	}
+
+}

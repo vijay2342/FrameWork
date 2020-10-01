@@ -1,0 +1,11 @@
+package org.jspider.manyApp;
+
+import antlr.collections.List;
+
+public class Person 
+{
+	private int rollno;
+	private String name;
+	private java.util.List<BankAccount> acc;
+	
+}

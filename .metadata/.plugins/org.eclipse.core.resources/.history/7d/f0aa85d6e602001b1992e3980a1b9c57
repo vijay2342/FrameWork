@@ -1,0 +1,22 @@
+package org.jspider.manyApp;
+import javax.persistence.*;
+@Entity
+@Table(name="Bank_Details")
+public class BankAccount 
+{
+	private int accId;
+	private String accname;
+	public int getAccId() {
+		return accId;
+	}
+	public void setAccId(int accId) {
+		this.accId = accId;
+	}
+	public String getAccname() {
+		return accname;
+	}
+	public void setAccname(String accname) {
+		this.accname = accname;
+	}
+	
+}

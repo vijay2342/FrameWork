@@ -1,0 +1,7 @@
+package org.jspider.manyApp;
+public class Person 
+{
+	private int rollno;
+	private String name;
+	
+}
